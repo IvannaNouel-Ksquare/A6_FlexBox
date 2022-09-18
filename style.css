@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'Helvetica';
+
+
+}
+
+.container {
+    background-color: #FFFFFF;
+    display: flex;
+
+}
+
+.rigth {
+    background-image: url(fondo1.jpeg);
+    background-size: 100% 100%;
+    height: 1001px;
+    width: 980px;
+    float: right;
+    flex: 50%;
+    padding-top: 550px;
+    padding-left: 50px;
+    align-items: center;
+
+
+
+}
+
+.left {
+    padding-top: 230px;
+    float: left;
+    flex: 50%;
+
+}
+
+label,
+a {
+    font-size: small;
+    font-weight: bold;
+    color: black;
+
+}
+
+.email,
+.password,
+.checkbox {
+
+    padding: 10px 250px;
+}
+
+a {
+    padding: 10px 92px;
+    text-decoration: none;
+
+
+}
+
+input[type=email],
+[type=password] {
+    width: 87%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    border: 1px solid #8f8f8f;
+    border-radius: 10px;
+
+}
+
+.submit {
+
+    padding: 12px 249px;
+
+}
+
+input[type=submit] {
+    width: 87%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    background-color: #101828;
+    color: #FFFFFF;
+    border: 1px solid #475467;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+h1 {
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 72px;
+    padding: 9px 250px 2px;
+
+}
+
+p {
+    font-weight: 340;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0px 250px 23px;
+}
+
+#p2 {
+    font-weight: 340;
+    font-size: 13px;
+    line-height: 24px;
+    padding: 12px 326px 28px;
+}
+
+.button {
+    display: inline-flex;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid #475467;
+    width: 87%;
+    padding: 10px 138px;
+    margin: 6px 0;
+    border-radius: 10px;
+    font-weight: 480;
+    align-items: center;
+
+
+}
+
+button img {
+    position: absolute;
+    left: 350px;
+    top: 68.2%;
+}
+
+#p2 a {
+    padding: 10px 3px;
+    text-decoration: none;
+
+}
+
+.box {
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #ffffff4d;
+    border: 1px solid #ffffff80;
+    backdrop-filter: blur(12px);
+    height: 400px;
+    width: 95%;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.star{
+    padding-left: 700px;
+
+}
+.box #p3 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 50px;
+    color: #FFFFFF;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+h4 {
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+.box #mini{
+    font-weight: 340;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
